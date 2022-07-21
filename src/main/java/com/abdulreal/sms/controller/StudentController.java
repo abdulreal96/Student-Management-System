@@ -75,10 +75,4 @@ public class StudentController {
     }
     
     
-    @GetMapping("/nothing/{id}")
-    public String doNothing(@PathVariable Long id){
-        studentService.deleteStudentById(id);
-        return "redirect:/students";
-    }
-    
 }
