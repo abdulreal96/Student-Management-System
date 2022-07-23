@@ -9,7 +9,9 @@ package com.abdulreal.sms;
  * @author Omar
  */
 public class Simple {
-    
-    System.out.printout("Hello World");
+    public static void main(String[] args) {
+        
+    System.out.println("Hello World");
+    }
     
 }
