@@ -10,4 +10,6 @@ package com.abdulreal.sms;
  */
 public class Simple {
     
+    System.out.printout("Hello World");
+    
 }
