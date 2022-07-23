@@ -53,6 +53,7 @@ public class StudentController {
         return "edit_student";
     }
     
+    //post method for updating user details
     @PostMapping("/students/{id}")
     public String updateStudent(@PathVariable Long id, 
             @ModelAttribute("student") Student student, Model model){
